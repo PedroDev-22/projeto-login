@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta ou crie uma.</p>
+                <form action="cadastro.php" method="post">
+                    <div>
+                        <img src="imagens/usuário-48.png" alt="usuário" class="img">
+                        <label for="email" id="usuario"></label>
+                        <input type="email" name="email" id="email" class="input" placeholder="Seu email" size="25" required>
+                    </div>
+
+                    <div>
+                        <img src="imagens/chave-48.png" alt="chave" class="img">
+                        <label for="senha" id="senha"></label>
+                        <input type="password" name="senha" id="senha" class="input" placeholder="Sua senha" minlength="8" size="25" required>
+                        
+                    </div>
+
+                    <div id="logar">
+                        <a href="#" id="esqueci">| Esqueci minha senha |</a>
+                    </div>
+
+                    <div id="log">
+                        <h1><a href="#" id="entrar">Entrar</a></h1>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
